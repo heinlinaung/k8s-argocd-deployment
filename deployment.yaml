@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/heinlinaung/k8s-argocd-app:latest
+        image: ghcr.io/heinlinaung/k8s-argocd-app:338672e305a566c67a7c02a5d6d1dc004c625152
         ports:
         - containerPort: 3000
         resources:
